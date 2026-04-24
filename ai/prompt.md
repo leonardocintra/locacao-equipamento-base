@@ -248,7 +248,7 @@ Think: "premium construction rental brand" — trustworthy and bold.
 - Intersection Observer for scroll-triggered animations
 - Mobile-first, fully responsive (stack to 1 column on mobile)
 - Smooth scroll between anchor sections
-- All WhatsApp buttons open: https://wa.me/5561994500144
+- All WhatsApp buttons open: https://wa.me/5516999775829
 - No cart, no login, no checkout — single-page landing only
 - Language: pt-br
 
