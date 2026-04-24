@@ -16,7 +16,7 @@ export function Hero() {
     <section className="relative w-full min-h-[90vh] bg-light-bg pt-[120px] pb-20 overflow-hidden flex flex-col items-center">
       {/* Container Principal */}
       <div className="max-w-[1280px] w-full mx-auto px-6 relative z-10 flex flex-col items-center">
-        
+
         {/* Texto Central */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -40,7 +40,7 @@ export function Hero() {
 
         {/* Área Visual (Badges e Imagem) */}
         <div className="relative w-full mt-16 flex flex-col md:flex-row justify-between items-end min-h-[400px]">
-          
+
           {/* Badges Flutuantes à esquerda */}
           <div className="hidden md:flex flex-col gap-4 absolute left-0 bottom-10 z-20">
             {[
@@ -78,7 +78,7 @@ export function Hero() {
                 alt="Betoneira e equipamentos de construção"
                 width={800}
                 height={600}
-                className="w-full h-auto object-contain drop-shadow-2xl"
+                className="w-full h-auto object-contain drop-shadow-2xl rounded-full"
                 priority
               />
             </motion.div>

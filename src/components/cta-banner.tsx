@@ -10,15 +10,15 @@ export function CtaBanner() {
   return (
     <section className="py-20 px-6 bg-white">
       <div className="max-w-[1200px] mx-auto">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
-          className="relative w-full rounded-[2rem] bg-gradient-to-br from-secondary to-secondary-dark overflow-hidden flex flex-col md:flex-row shadow-2xl"
+          className="relative w-full rounded-4xl bg-linear-to-br from-secondary to-secondary-dark overflow-hidden flex flex-col md:flex-row shadow-2xl"
         >
           {/* Textura sutil de fundo */}
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white via-transparent to-transparent pointer-events-none"></div>
+          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,var(--tw-gradient-stops))] from-white via-transparent to-transparent pointer-events-none"></div>
 
           {/* Conteúdo (Esquerda) */}
           <div className="relative z-10 p-12 md:p-16 lg:p-20 flex-1 flex flex-col justify-center items-start">
