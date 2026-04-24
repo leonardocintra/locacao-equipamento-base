@@ -8,9 +8,9 @@ export function WhyLocFacil() {
   return (
     <section id="sobre" className="py-24 bg-secondary-dark relative overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-6 relative z-10 flex flex-col lg:flex-row items-center gap-16">
-        
+
         {/* Lado Esquerdo: Imagens Empilhadas */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -58,7 +58,7 @@ export function WhyLocFacil() {
         </motion.div>
 
         {/* Lado Direito: Conteúdo */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, margin: "-100px" }}
@@ -78,8 +78,10 @@ export function WhyLocFacil() {
                 <Truck className="w-7 h-7 text-primary" />
               </div>
               <div className="flex flex-col justify-center">
-                <h3 className="text-white font-sans font-medium text-xl mb-1">Entrega Grátis na Região</h3>
-                <p className="text-[#94A3B8] text-sm">Levamos até sua obra sem custo extra.</p>
+                <h3 className="text-white font-sans font-medium text-xl mb-1">Entrega na Região</h3>
+                <p className="text-[#94A3B8] text-sm leading-relaxed">
+                  Levamos até sua obra em Cássia, Ibiraci, Claraval e Franca.
+                </p>
               </div>
             </div>
 

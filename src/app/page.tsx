@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { Hero } from "@/components/hero";
 import { LatestCollection } from "@/components/latest-collection";
+import { ComboSection } from "@/components/combo-section";
 import { MarqueeStatement } from "@/components/marquee";
 import { WhyLocFacil } from "@/components/why-loc-facil";
 import { EquipmentCatalog } from "@/components/equipment-catalog";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="flex flex-col flex-1 w-full relative">
         <Hero />
         <LatestCollection />
+        <ComboSection />
         <MarqueeStatement />
         <WhyLocFacil />
         <EquipmentCatalog />
