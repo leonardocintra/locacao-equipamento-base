@@ -22,7 +22,7 @@ export function Navbar() {
   return (
     <header
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 h-[68px] transition-all duration-300 ease-in-out",
+        "fixed top-0 left-0 right-0 z-50 h-[80px] transition-all duration-300 ease-in-out",
         scrolled ? "bg-white/95 backdrop-blur-md shadow-sm" : "bg-transparent"
       )}
     >
@@ -32,8 +32,8 @@ export function Navbar() {
           <Image
             src="/locfacil.png"
             alt="Loc Fácil Logo"
-            width={140}
-            height={45}
+            width={180}
+            height={64}
             className="object-contain"
             priority
           />
