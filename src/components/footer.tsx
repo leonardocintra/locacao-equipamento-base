@@ -1,5 +1,5 @@
-
-
+import Image from "next/image";
+import Link from "next/link";
 export function Footer() {
   return (
     <footer className="bg-secondary-dark pt-16 pb-8 border-t border-white/5">
@@ -9,9 +9,28 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-12">
           {/* Logo */}
           <div className="font-heading text-3xl font-bold uppercase tracking-wide">
-            <span className="text-white">Loc</span>
-            <span className="text-primary">Fácil</span>
+            <Image
+              src="/locfacil.png"
+              alt="Loc Fácil Logo"
+              width={180}
+              height={64}
+              className="object-contain"
+              priority
+            />
           </div>
+
+          {/* Links */}
+          <nav className="flex flex-wrap justify-center gap-6 text-sm font-medium">
+            {["Equipamentos", "Como Funciona", "Sobre", "Contato"].map((item) => (
+              <Link
+                key={item}
+                href={item === "Contato" ? "/contato" : `/#${item.toLowerCase().replace(" ", "-")}`}
+                className="text-[#64748B] hover:text-primary transition-colors"
+              >
+                {item}
+              </Link>
+            ))}
+          </nav>
 
           {/* Social */}
           <a
