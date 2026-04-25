@@ -41,7 +41,7 @@ const products = [
     rating: "4.7",
     reviews: 56,
     badge: "Popular",
-    image: "/placeholder-andaime.jpg",
+    image: "/produtos/andaime/aindame.png",
   },
 ];
 
