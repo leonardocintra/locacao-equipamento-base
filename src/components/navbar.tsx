@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Search, MessageCircle } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -54,10 +54,6 @@ export function Navbar() {
 
         {/* Actions */}
         <div className="flex items-center gap-4">
-          <button className="p-2 text-text-dark hover:text-primary transition-colors hidden sm:block">
-            <Search className="w-5 h-5" />
-          </button>
-
           <Link
             href={WHATSAPP_LINK}
             target="_blank"
