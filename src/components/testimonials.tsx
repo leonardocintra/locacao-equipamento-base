@@ -43,7 +43,7 @@ export function Testimonials() {
   return (
     <section className="py-24 bg-light-bg overflow-hidden">
       <div className="max-w-[1280px] mx-auto px-6 flex flex-col lg:flex-row gap-16 items-center">
-        
+
         {/* Lado Esquerdo: Textos e Controle */}
         <div className="w-full lg:w-1/2 flex flex-col">
           <span className="text-primary font-bold uppercase tracking-widest text-sm mb-4">
@@ -103,7 +103,7 @@ export function Testimonials() {
 
         {/* Lado Direito: Imagens */}
         <div className="w-full lg:w-1/2 relative h-[400px] sm:h-[500px]">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
@@ -111,7 +111,7 @@ export function Testimonials() {
             className="absolute right-0 top-0 w-[70%] h-[80%] rounded-3xl overflow-hidden border-4 border-white shadow-xl z-10"
           >
             <Image
-              src="/placeholder-worker1.jpg"
+              src="/pessoas/engenheiros.png"
               alt="Cliente usando equipamento"
               fill
               className="object-cover"
@@ -122,7 +122,7 @@ export function Testimonials() {
             />
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, scale: 0.9, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             viewport={{ once: true }}
@@ -130,7 +130,7 @@ export function Testimonials() {
             className="absolute left-0 bottom-0 w-[55%] h-[60%] rounded-3xl overflow-hidden border-4 border-white shadow-2xl z-20"
           >
             <Image
-              src="/placeholder-worker2.jpg"
+              src="/pessoas/mestre-de-obra.png"
               alt="Obra satisfeita"
               fill
               className="object-cover"
