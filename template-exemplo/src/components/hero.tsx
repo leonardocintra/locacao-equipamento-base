@@ -7,8 +7,8 @@ export function Hero() {
     <section className="relative overflow-hidden bg-white py-16 md:py-24">
       <div className="container mx-auto px-4 grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Left Content */}
-        <div className="max-w-2xl">
-          <h1 className="text-4xl lg:text-6xl font-bold text-secondary leading-tight mb-6">
+        <div className="max-w-2xl z-20 relative">
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold text-secondary leading-tight mb-6">
             Alugue Equipamentos de Construção com Facilidade
           </h1>
           <p className="text-lg text-gray-600 mb-8">
@@ -39,9 +39,9 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative h-[280px] sm:h-[350px] md:h-[450px] lg:h-[600px] w-full max-w-[400px] md:max-w-none mx-auto flex items-center justify-center mt-8 md:mt-0">
+        <div className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[600px] w-full max-w-[400px] md:max-w-none mx-auto flex items-center justify-center mt-8 md:mt-0">
           {/* Equipment Image */}
-          <div className="relative w-[95%] sm:w-[90%] md:w-[115%] lg:w-[130%] flex items-center justify-center z-10 md:-ml-8 lg:-ml-24">
+          <div className="relative w-[95%] sm:w-[90%] md:w-[90%] lg:w-full xl:w-[130%] flex items-center justify-center z-10 xl:-ml-24">
             <Image
               src="/img/betoneira-e-compactador.png"
               alt="Betoneira e Compactador"
